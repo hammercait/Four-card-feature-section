@@ -116,7 +116,32 @@ p{
     margin-top:-10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
+    body{
+        padding:0;
+        width:100vw;
+    }
+    .main-text{
+        text-align:center;
+        margin:20px 10px;
+        margin-bottom:10px;
+    }
+
+    h1{
+        font-size:1.5em;
+    }
+    h2{
+        font-size:1.5em;
+    }
+
+    p{
+        font-size:.9em;
+        margin:0 40px;
+    }
+    .cards{
+        transform:scale(.8);
+    }
+
     .boxes {
        flex-direction: column;
     }
@@ -124,7 +149,9 @@ p{
     .karma,
     .team-builder,
     .calculator {
-       margin: 0 0 15px 0;
+       margin: 0 0 0 0;
     }
-  
+    .contents p{
+        margin-left:0;
+    }
   } 
